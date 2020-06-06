@@ -49,8 +49,8 @@ h1{
     padding:0;
     margin:0px auto;
     display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
   
 }
 
@@ -86,27 +86,27 @@ h2 {
     flex-shrink:0;
 }
 
-form{
+/* form{
     display:flex;
     min-height: 1px;
     flex-wrap:wrap;
-}
+} */
 
 .first_name {
-    width:900px;
+    width:100%;
     margin-bottom: 20px;
     height:15px;
 }
 
 .email {
-    width:900px;
+    width:100%;
     margin-bottom: 20px;
     height:15px;
 
 }
 
 .message {
-    width:900px;
+    width:100%;
     margin-bottom: 20px;
     height:200px;
 
