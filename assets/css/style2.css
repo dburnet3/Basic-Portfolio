@@ -50,14 +50,20 @@ h1{
     margin:0px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   
+}
+
+.flex-container > div {
+    display: inline;
+    flex: 1 1 auto;
 }
 
 .main_content {
     background-color:#ffffff;
-    max-width: 960px;
-    margin-left:150px;
+    margin-left:10%;
+    margin-right:10%;
   
 }
 
@@ -93,27 +99,31 @@ h2 {
 } */
 
 .first_name {
-    width:100%;
+    width:95%;
     margin-bottom: 20px;
     height:15px;
+    margin-left:1%
 }
 
 .email {
-    width:100%;
+    width:95%;
     margin-bottom: 20px;
     height:15px;
+    margin-left:1%;
 
 }
 
 .message {
-    width:100%;
+    width:95%;
     margin-bottom: 20px;
     height:200px;
+    margin-left:1%;
 
 }
 
 label{
     font:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left:1%;
 }
 
 button {
